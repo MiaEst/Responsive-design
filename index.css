@@ -22,6 +22,18 @@
 .pantalla{
     background-color: darkblue;
 }
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: bold;
+}
 }
 .cuadroAzul{
      width: 10rem;
@@ -32,10 +44,12 @@
   }
   .header {
     background-color: white;
-    padding: 1rem 2rem;
+    padding: 1rem 1.5rem;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
+    gap: 1rem;
+    text-align: center;
   }
   
   .logo {
